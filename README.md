@@ -12,5 +12,7 @@ This is the most simple filter to learn. It's very much based on the item feautu
 ### Content Based vs. Collaborative Filter
 ### Item based vs. User Based?
 
-## Collaborative Filter with Deep Learning (Keras)
+## Collaborative Filter with Deep Learning
+### Tensorflow implementation
+### Keras implementation
 ### Why do we need Embedded Layer?
