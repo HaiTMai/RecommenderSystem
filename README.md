@@ -8,8 +8,8 @@ This is the most simple filter to learn. It's very much based on the item feautu
 
 ## Collaborative Filter Model
 ### Description
-### Content Based vs Collaborative Filter
-### Item based vs User Based?
+### Content Based vs. Collaborative Filter
+### Item based vs. User Based?
 
 ## Collaborative Filter with Deep Learning (Keras)
 ### Why do we need Embedded Layer?
