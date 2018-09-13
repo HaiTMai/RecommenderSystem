@@ -23,7 +23,7 @@ Based on the choice of reference characteristics, a recommendation system could 
 In practice, it has been observed that item-item often works better than user-user
 Why? Items are simpler, users have multiple tastes
 ![User Based and Item Based](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/CF_Filter.jpg)
-![Users and Items Fitler, Which one better?](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/User_Items.png)
+![Users and Items Fitler, Which one better?](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/User_ItemsCF.png)
 ## Collaborative Filter with Deep Learning
 ### Shallow implementation
 Using Keras backed by tensorflow just some neural network layers and embedded layers. We use sparse matrix so we save a lot of memory space and computational cost.
