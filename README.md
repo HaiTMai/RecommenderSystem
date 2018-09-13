@@ -43,7 +43,7 @@ Using Keras backed by tensorflow for AutoEncoder to automatically discover laten
 1. Machine Learning, Deep Learning IO by Andrew Ng(Stanford)
 2. Minining of Massive Datasets by Stanford
 3. Introduction to Data Mining by U Kang, Seoul National University(SNU)
-4. Introduction to Data Mining by ChongHee Park, Chungnam National University(CNU)
+4. Introduction to Data Mining by CheongHee Park, Chungnam National University(CNU)
 ### Utility Matrices: 
 Recommendation systems deal with users and items. A utility matrix offers known information about the degree to which a user likes an item. Normally, most entries are unknown, and the essential problem of recommending items to users is predicting the values of the unknown entries based on the values of the known entries.
 ### Two Classes of Recommendation Systems: 
