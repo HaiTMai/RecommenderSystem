@@ -17,8 +17,8 @@ Instead of using features of items to determine their similarity, we focus on th
 ![Collaborative  Filtering Pros&Cons](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/ProsConsCF.png)
 ### Content Based vs. Collaborative Filter
 Based on the choice of reference characteristics, a recommendation system could be based on content-based approach or collaborative filtering (CF) approach or both. As their names indicate, content-based approach is based on the “matching” of user profile and some specific characteristics of an item (e.g.the occurrence of specific words in a document) while collaborative filtering approach is a process of filtering information or pattern based on the collaboration of users, or the similarity between items.
-• Content-based systems examine properties of the items recommended. For instance, if a Netflix user has watched many cowboy movies, then recom- mend a movie classified in the database as having the “cowboy” genre.
-• Collaborative filtering systems recommend items based on similarity measures between users and/or items. The items recommended to a user are those preferred by similar users.
+* Content-based systems examine properties of the items recommended. For instance, if a Netflix user has watched many cowboy movies, then recom- mend a movie classified in the database as having the “cowboy” genre.
+* Collaborative filtering systems recommend items based on similarity measures between users and/or items. The items recommended to a user are those preferred by similar users.
 ### Item based vs. User Based?
 In practice, it has been observed that item-item often works better than user-user
 Why? Items are simpler, users have multiple tastes
