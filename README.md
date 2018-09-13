@@ -41,7 +41,7 @@ Using Keras backed by tensorflow for AutoEncoder to automatically discover laten
 ![Introduction to Data Mining](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/book2.jpg)
 ### Courses:
 1. Machine Learning, Deep Learning IO by Andrew Ng(Stanford)
-2. Minining Massive Datasets by Stanford
+2. Minining of Massive Datasets by Stanford
 3. Introduction to Data Mining by U Kang, Seoul National University(SNU)
 4. Introduction to Data Mining by ChongHee Park, Chungnam National University(SNU)
 ### Utility Matrices: 
