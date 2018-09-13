@@ -37,7 +37,7 @@ Using Keras backed by tensorflow for AutoEncoder to automatically discover laten
 
 ## Important Notes
 ### Books:
-![Mining Massive Datasets](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/book1.jpg)
+![Mining Massive Datasets](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/Book1.jpg)
 ![Introduction to Data Mining](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/book2.jpg)
 ### Courses:
 1. Machine Learning, Deep Learning IO by Andrew Ng(Stanford)
