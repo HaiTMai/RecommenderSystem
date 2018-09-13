@@ -7,14 +7,14 @@ If you wanna have the full source code, email to hai.maituan@gmail.com
 ### Description
 This is the most simple filter to learn. It's very much based on the item feautures. As a master of fact, it's difficult for people to create the features and input the values for that features. Some people have confustion about Content Based Filter Model and Collaborative Filter with Item Based. 
 ### Code
-![Content Based Filtering Code](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/ContentBasedCode.jpg)
+![Content Based Filtering Code](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/ContentBasedCode.png)
 ### Output
-![Recommend20](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/Recommend20.jpg)
+![Recommend20](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/Recommend20.png)
 ## Collaborative Filter Model
 ### Description
 Instead of using features of items to determine their similarity, we focus on the similarity of the user ratings for two items. That is, in place of the item-profile vector for an item, we use its column in the utility matrix. Further, instead of contriving a profile vector for users, we represent them by their rows in the utility matrix. Users are similar if their vectors are close according to some distance measure such as Jaccard or cosine distance. Recommendation for a user U is then made by looking at the users that are most similar to U in this sense, and recommending items that these users like. The process of identifying similar users and recommending what similar users like is called collaborative filtering.
 ### Pros and Cons
-![Collaborative  Filtering Pros&Cons](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/ProsConsCF.jpg)
+![Collaborative  Filtering Pros&Cons](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/ProsConsCF.png)
 ### Content Based vs. Collaborative Filter
 Based on the choice of reference characteristics, a recommendation system could be based on content-based approach or collaborative filtering (CF) approach or both. As their names indicate, content-based approach is based on the “matching” of user profile and some specific characteristics of an item (e.g.the occurrence of specific words in a document) while collaborative filtering approach is a process of filtering information or pattern based on the collaboration of users, or the similarity between items.
 • Content-based systems examine properties of the items recommended. For instance, if a Netflix user has watched many cowboy movies, then recom- mend a movie classified in the database as having the “cowboy” genre.
@@ -23,26 +23,27 @@ Based on the choice of reference characteristics, a recommendation system could 
 In practice, it has been observed that item-item often works better than user-user
 Why? Items are simpler, users have multiple tastes
 ![User Based and Item Based](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/CF_Filter.jpg)
-![Users and Items Fitler, Which one better?](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/User_Items.jpg)
+![Users and Items Fitler, Which one better?](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/User_Items.png)
 ## Collaborative Filter with Deep Learning
 ### Shallow implementation
 Using Keras backed by tensorflow just some neural network layers and embedded layers. We use sparse matrix so we save a lot of memory space and computational cost.
-![Shallow Architecture Code](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/ShallowCFCodejpg)
-![Shallow Architecture Neural Networks](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/ShallowCFNet.jpg)
+![Shallow Architecture Code](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/ShallowCFCode.png)
+![Shallow Architecture Neural Networks](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/ShallowCFNet.png)
 ### Keras AutoEncoder implementation
 Using Keras backed by tensorflow for AutoEncoder to automatically discover latent factors and the features of users, items and ratings. We use sparse matrix so we save a lot of memory space and computational cost.
-![Deep Architecture Code](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/DeepCFCodejpg)
-![Deep Architecture Neural Networks](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/DeepCFNet.jpg)
+![Deep Architecture Code](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/DeepCFCode.png)
+![Deep Architecture Neural Networks](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/DeepCFNet.png)
 ### Why do we need Embedded Layer?
 
 ## Important Notes
 ### Books:
-![Deep Architecture Code](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/DeepCFCodejpg)
+![Mining Massive Datasets](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/book1.jpg)
+![Introduction to Data Mining](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/book2.jpg)
 ### Courses:
-1. Machine Learning, Deep Learning IO by Andrew Ng
+1. Machine Learning, Deep Learning IO by Andrew Ng(Stanford)
 2. Minining Massive Datasets by Stanford
-3. Introduction to Data Mining by U Kang Seoul National University
-4. Introduction to Data Mining by ChongHee Park Chungnam National University
+3. Introduction to Data Mining by U Kang, Seoul National University(SNU)
+4. Introduction to Data Mining by ChongHee Park, Chungnam National University(SNU)
 ### Utility Matrices: 
 Recommendation systems deal with users and items. A utility matrix offers known information about the degree to which a user likes an item. Normally, most entries are unknown, and the essential problem of recommending items to users is predicting the values of the unknown entries based on the values of the known entries.
 ### Two Classes of Recommendation Systems: 
