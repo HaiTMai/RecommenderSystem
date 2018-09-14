@@ -36,8 +36,8 @@ Using Keras backed by tensorflow for AutoEncoder to automatically discover laten
 ### Why do we need Embedded Layer?
 * One Hot Endcoded Vectors for Recommender Systems are high dimensional and sparse. It is called One Hot because jsut one value is 1 and all others values are 0. It consumes a lot of memory space and increase computational cost. There are 1M items in Amazon but a user just rate for 1 item only. If they store in convientional vector it's really a bad solution.
 * To save memory space we can make use of sparse matrices in numpy or Keras but Embedded Layer is more than that, it provides the latent factors to encode the characteristic of users of rating for items. So we can reduce a lot of redundant informations to represent characteristic of users.
-* Embedded in Keras
-![Keras](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/EmbeddedInKeras.png)
+* Embedded in Excel
+![Keras](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/EmbeddedInExcel.png)
 * Embedded in Text Example
 ![Text Example](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/EmbeddedText.png)
 ## Important Notes
