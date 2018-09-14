@@ -5,7 +5,7 @@ If you wanna have the full source code, email to hai.maituan@gmail.com
 -------------------------------------
 ## Content Based Filter Model
 ### Description
-This is the most simple filter to learn. It's very much based on the item features. As a master of fact, it's difficult for people to create the features and input the values for that features. Some people have confustion about Content Based Filter Model and Collaborative Filter with Item Based. Try interesting Recommender System with Excel with [Simen Eide](https://simeneide.github.io/recommendations/2017/05/27/CFexcel.html)
+This is the most simple filter to learn. It's very much based on the item features. As a master of fact, it's difficult for people to create the features and input the values for that features. Some people have confustion about Content Based Filter Model and Collaborative Filter with Item Based. Try an interesting Recommender System with Excel with [Simen Eide](https://simeneide.github.io/recommendations/2017/05/27/CFexcel.html)
 ### Code
 ![Content Based Filtering Code](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/ContentBasedCode.png)
 ### Output
