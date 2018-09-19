@@ -26,7 +26,7 @@ Why? Items are simpler, users have multiple tastes
 ![Users and Items Fitler, Which one better?](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/User_ItemsCF.png)
 * Item-Item vs User-Item Matrix
 ![User-ItemMatrix](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/Item_UserBased_Cal.JPG)
-* Predict from Matrix
+* Predict from Matrix <br />
 ![PredictFromItemBased](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/ItemBasedFormula.JPG)
 ![PredictFromUserBased](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/UserBasedFormula.JPG)
 ## Collaborative Filter with Deep Learning
