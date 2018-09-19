@@ -25,10 +25,10 @@ Why? Items are simpler, users have multiple tastes
 ![User Based and Item Based](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/CF_Filter.jpg)
 ![Users and Items Fitler, Which one better?](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/User_ItemsCF.png)
 * Item-Item vs User-Item Matrix
-![User-ItemMatrix](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/Item_UserBased_Cal.jpg)
+![User-ItemMatrix](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/Item_UserBased_Cal.JPG)
 * Predict from Matrix
-![PredictFromItemBased](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/ItemBasedFormula.jpg)
-![PredictFromUserBased](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/UserBasedFormula.jpg)
+![PredictFromItemBased](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/ItemBasedFormula.JPG)
+![PredictFromUserBased](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/UserBasedFormula.JPG)
 ## Collaborative Filter with Deep Learning
 ### Shallow implementation
 Using Keras backed by tensorflow just some neural network layers and embedded layers. We use sparse matrix so we save a lot of memory space and computational cost.
