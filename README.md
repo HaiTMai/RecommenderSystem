@@ -20,10 +20,15 @@ Based on the choice of reference characteristics, a recommendation system could 
 * Content-based systems examine properties of the items recommended. For instance, if a Netflix user has watched many cowboy movies, then recom- mend a movie classified in the database as having the “cowboy” genre.
 * Collaborative filtering systems recommend items based on similarity measures between users and/or items. The items recommended to a user are those preferred by similar users.
 ### Item based vs. User Based?
-In practice, it has been observed that item-item often works better than user-user
+* In practice, it has been observed that item-item often works better than user-user
 Why? Items are simpler, users have multiple tastes
 ![User Based and Item Based](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/CF_Filter.jpg)
 ![Users and Items Fitler, Which one better?](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/User_ItemsCF.png)
+* Item-Item vs User-Item Matrix
+![User-ItemMatrix](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/Item_UserBased_Cal.jpg)
+* Predict from Matrix
+![PredictFromItemBased](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/ItemBasedFormula.jpg)
+![PredictFromUserBased](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/UserBasedFormula.jpg)
 ## Collaborative Filter with Deep Learning
 ### Shallow implementation
 Using Keras backed by tensorflow just some neural network layers and embedded layers. We use sparse matrix so we save a lot of memory space and computational cost.
