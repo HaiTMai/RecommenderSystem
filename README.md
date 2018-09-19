@@ -31,6 +31,13 @@ Why? Items are simpler, users have multiple tastes
 ![PredictFromUserBased](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/UserBasedFormula.JPG)
 * Matrix Factorization<br />
 ![ModelBased](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/MatrixFactorization.JPG)
+## Hybrid Recommender Systems
+### Description
+Models that use both user data(users,items,ratings) and content features(Action,Drama,..) are called Hybrid Recommender Systems where both Collaborative Filtering and Content-based Models are combined. Hybrid recommender systems usually outperform Collaborative Filtering or Content-based Models on their own: they are capable to address the cold-start problem better since if you don't have any ratings for a user or an item you could use the metadata from the user or item to make a prediction. Hybrid Recommender Systems can combine many types of individual recommender systems not limited to user and content features.
+### Hybrid RecSys Combines many RecSyses
+![HybridRecSys](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/HybridRecSys.JPG)
+### User Content Matrix
+![HybridUserContent](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/Hybrid_User_Content.JPG)
 ## Collaborative Filter with Deep Learning
 ### Shallow implementation
 Using Keras backed by tensorflow just some neural network layers and embedded layers. We use sparse matrix so we save a lot of memory space and computational cost.
