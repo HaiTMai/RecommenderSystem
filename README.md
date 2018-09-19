@@ -29,6 +29,8 @@ Why? Items are simpler, users have multiple tastes
 * Predict from Matrix <br />
 ![PredictFromItemBased](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/ItemBasedFormula.JPG)
 ![PredictFromUserBased](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/UserBasedFormula.JPG)
+* Matrix Factorization<br />
+![ModelBased](https://github.com/HaiTMai/RecommenderSystem/blob/master/Images/MaxtrixFactorization.JPG)
 ## Collaborative Filter with Deep Learning
 ### Shallow implementation
 Using Keras backed by tensorflow just some neural network layers and embedded layers. We use sparse matrix so we save a lot of memory space and computational cost.
