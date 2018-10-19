@@ -1,5 +1,5 @@
 # Recommender System 
-Python implementation of Recommender System If you wanna have the full source code, email to hai.maituan@gmail.com. [Wiki]( https://en.wikipedia.org/wiki/Recommender_system#)
+Python implementation of Recommender System If you wanna have the full source code, email to hai.maituan@gmail.com. [Wiki]( https://en.wikipedia.org/wiki/Recommender_system#) [Excel](https://docs.google.com/spreadsheets/d/1Y4gfiTZwAwvW9VosPsyrEidKyfll-BYI1Vn2haqXQds/edit#gid=2036320012) 
 
 -------------------------------------
 ## Content Based Filter Model
