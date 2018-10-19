@@ -1,6 +1,6 @@
 # Recommender System 
-Python implementation of Recommender System.
-If you wanna have the full source code, email to hai.maituan@gmail.com [Wiki](https://en.wikipedia.org/wiki/Recommender_system#)
+Python implementation of Recommender System If you wanna have the full source code, email to hai.maituan@gmail.com. [Wiki]( https://en.wikipedia.org/wiki/Recommender_system#)
+
 -------------------------------------
 ## Content Based Filter Model
 ### Description
